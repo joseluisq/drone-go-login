@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/drone/go-login/login"
+	"joseluisq/drone-go-login/login"
 )
 
 type token struct {

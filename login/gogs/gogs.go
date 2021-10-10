@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/drone/go-login/login"
+	"joseluisq/drone-go-login/login"
 )
 
 var _ login.Middleware = (*Config)(nil)
