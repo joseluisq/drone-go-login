@@ -13,8 +13,8 @@ import (
 	"net/http"
 	"strings"
 
-	"joseluisq/drone-go-login/login"
-	"joseluisq/drone-go-login/login/internal/oauth1"
+	"github.com/joseluisq/drone-go-login/login"
+	"github.com/joseluisq/drone-go-login/login/internal/oauth1"
 )
 
 var _ login.Middleware = (*Config)(nil)

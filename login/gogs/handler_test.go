@@ -14,7 +14,7 @@ import (
 	"testing"
 
 	"github.com/h2non/gock"
-	"joseluisq/drone-go-login/login"
+	"github.com/joseluisq/drone-go-login/login"
 )
 
 func TestLogin(t *testing.T) {

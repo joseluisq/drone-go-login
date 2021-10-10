@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
-	"joseluisq/drone-go-login/login"
-	"joseluisq/drone-go-login/login/logger"
+	"github.com/joseluisq/drone-go-login/login"
+	"github.com/joseluisq/drone-go-login/login/logger"
 )
 
 // Handler returns a Handler that runs h at the completion

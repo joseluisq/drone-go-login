@@ -7,8 +7,8 @@ package bitbucket
 import (
 	"net/http"
 
-	"joseluisq/drone-go-login/login"
-	"joseluisq/drone-go-login/login/internal/oauth2"
+	"github.com/joseluisq/drone-go-login/login"
+	"github.com/joseluisq/drone-go-login/login/internal/oauth2"
 )
 
 var _ login.Middleware = (*Config)(nil)

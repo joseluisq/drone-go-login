@@ -1,4 +1,4 @@
-module joseluisq/drone-go-login
+module github.com/joseluisq/drone-go-login
 
 go 1.17
 
